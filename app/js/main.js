@@ -134,12 +134,14 @@ $('.quantity').each(function() {
 });
 
 $('.quantity-button').on('click', function(){
-    let summ = $('.nights').val() * $('.guests').val() * $('.summ').data('price');
-    $('.summ').html('$' + summ);
+  let summ = $('.nights').val() * $('.guests').val() * 150;
+  $('.summ').html(summ);
 })
 
-let summ = $('.nights').val() * $('.guests').val() * $('.summ').data('price');
-$('.summ').html('$' + summ);
+let summ = $('.nights').val() * $('.guests').val() * 150;
+  $('.summ').html(summ);
+
+// Surfboard content
 
 $('.surfboard-box__circle').on('click', function(){
     $(this).toggleClass('active')

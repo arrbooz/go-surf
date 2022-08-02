@@ -104,8 +104,6 @@ ul, li {
 	}
 }
 
-
-
 .subtitle {
 	display: inline-block;
 	text-align: right;
@@ -163,75 +161,72 @@ ul, li {
 	}
 }
 
-.surf, .holder {
-	padding: 0 0 120px;
-}
-
 .holder {
-	padding-bottom: 265px;
+	padding-bottom: 200px;
 }
 
 
+// Calculator
 
 .quantity {
 	display: inline-block;
-  }
+}
   
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button
-  {
-	-webkit-appearance: none;
-	margin: 0;
-  }
-  
-  input[type=number]
-  {
-	-moz-appearance: textfield;
-  }
-  
-  .quantity input {
-	width: 45px;
-	height: 42px;
-	display: block;
-	border: none;
-	background-color: transparent;
-	color: #fff;
-  }
-  
-  .quantity input:focus {
-	outline: 0;
-  }
-  
-  .quantity-nav {
-	float: left;
-	position: static;
-	height: 42px;
-  }
-  
-  .quantity-button {
-	position: relative;
-	cursor: pointer;
-	text-align: center;
-	color: #333;
-	-webkit-transform: translateX(-100%);
-	transform: translateX(-100%);
-	user-select: none;
-	height: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	top: 50px;
-  }
-  
-  .quantity-button.quantity-up {
-	position: absolute;
-	right: 0;
-  }
-  
-  .quantity-button.quantity-down {
-	position: absolute;
-	right: 25px;
-  }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number]
+{
+-moz-appearance: textfield;
+}
+
+.quantity input {
+width: 45px;
+height: 42px;
+display: block;
+border: none;
+background-color: transparent;
+color: #fff;
+}
+
+.quantity input:focus {
+outline: 0;
+}
+
+.quantity-nav {
+float: left;
+position: static;
+height: 42px;
+}
+
+.quantity-button {
+position: relative;
+cursor: pointer;
+text-align: center;
+color: #333;
+-webkit-transform: translateX(-100%);
+transform: translateX(-100%);
+user-select: none;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+top: 50px;
+}
+
+.quantity-button.quantity-up {
+position: absolute;
+right: 0;
+}
+
+.quantity-button.quantity-down {
+position: absolute;
+right: 25px;
+}
   
 
 //   Media
@@ -250,7 +245,7 @@ ul, li {
 @media (max-width: 720px) {
     .title {
         span {
-            font-size: 87px;
+            font-size: 100px;
             padding-bottom: 80px;
             padding-left: 10px;
         }
