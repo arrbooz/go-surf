@@ -129,6 +129,16 @@
             text-transform: capitalize;
         }
 	}
+	&__list-item {
+		a img {
+			margin: 0 auto;
+		}
+		&:hover {
+			opacity: 0.7;
+		}
+
+	}
+	
 }
 
 .menu-btn {
