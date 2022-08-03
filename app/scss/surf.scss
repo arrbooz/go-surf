@@ -103,6 +103,9 @@
     .slick-list {
         min-height: 635px;
         overflow: visible;
+        .slick-track {
+            transform: none !important;
+        }
     }
     .slick-current {
         .slider-dots__content {

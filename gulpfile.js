@@ -14,7 +14,7 @@ function browsersync() {
             baseDir: 'app/'
         },
         browser: 'chrome',
-        notify: false
+        notify: false,
     });
 }
 
@@ -48,6 +48,7 @@ function scripts() {
         'node_modules/readmore-js/dist/readmore.js',
         'node_modules/inputmask/dist/jquery.inputmask.js',
         'node_modules/slick-carousel/slick/slick.js',
+        'node_modules/wow.js/dist/wow.min.js',
         'app/js/main.js'
     ]) 
         .pipe(concat('main.min.js'))

@@ -1,4 +1,3 @@
-
 $(function(){
 
     $('.header__slider').slick({
@@ -11,8 +10,9 @@ $(function(){
     
     $('.slider-dotshead').slick({
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         infinite: true,
+        slidesPerRow: 4,
         asNavFor: '.header__slider', 
         responsive: [
           {
@@ -152,5 +152,17 @@ $('.surfboard-box__circle').on('click', function(){
 $('.menu-btn').on('click', function(){
   $('.menu').toggleClass('active');
 });
+
+// Wow
+
+new WOW().init();
+
+
+
+
+
+
+
+
 
 

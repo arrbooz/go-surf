@@ -19,7 +19,8 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify-es": "^3.0.0",
     "inputmask": "^5.0.7",
-    "sass": "^1.50.1"
+    "sass": "^1.50.1",
+    "wow.js": "^1.2.2"
   },
   "dependencies": {
     "jquery": "^3.6.0",

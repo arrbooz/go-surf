@@ -66,6 +66,11 @@
 			border-top: 4px solid $green;
 		}
 	}
+	.slick-list {
+		.slick-track {
+			transform: none !important;
+		}
+	}
 }
 
 .dots-box {
