@@ -9,7 +9,8 @@
   "author": "Natalia Tarasik",
   "license": "ISC",
   "devDependencies": {
-    "animate.css": "^4.1.1",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^4.0.27",
     "browser-sync": "^2.27.9",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -18,15 +19,13 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify-es": "^3.0.0",
-    "inputmask": "^5.0.7",
+    "jquery": "^3.6.0",
+    "mixitup": "^3.3.1",
     "sass": "^1.50.1",
+    "slick-carousel": "^1.8.1",
     "wow.js": "^1.2.2"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "micromodal": "^0.4.10",
-    "readmore-js": "^3.0.0-beta-1",
-    "slick-carousel": "^1.8.1",
-    "swiper": "^8.1.6"
+    "animate.css": "^4.1.1"
   }
 }

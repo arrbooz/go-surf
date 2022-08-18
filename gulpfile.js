@@ -43,12 +43,10 @@ function images() {
 function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.js',
-        'node_modules/swiper/swiper-bundle.js',
-        'node_modules/micromodal/dist/micromodal.js',
-        'node_modules/readmore-js/dist/readmore.js',
-        'node_modules/inputmask/dist/jquery.inputmask.js',
         'node_modules/slick-carousel/slick/slick.js',
-        'node_modules/wow.js/dist/wow.min.js',
+        'node_modules/mixitup/dist/mixitup.js',
+        'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
+        'node_modules/wow.js/dist/wow.js',
         'app/js/main.js'
     ]) 
         .pipe(concat('main.min.js'))
