@@ -14,7 +14,6 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
-        slidesPerRow: 4,
         asNavFor: '.header__slider', 
         responsive: [
           {
@@ -100,6 +99,10 @@ $(function () {
 
 });
 
+// Wow
+
+new WOW().init();
+
 // Calc
 
 $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="img/plus.svg"></div><div class="quantity-button quantity-down"><img src="img/minus.svg"></div></div>').insertAfter('.quantity input');
@@ -155,9 +158,7 @@ $('.menu-btn').on('click', function(){
   $('.menu').toggleClass('active');
 });
 
-// Wow
 
-new WOW().init();
 
 // Scroll
 

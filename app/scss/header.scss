@@ -6,11 +6,13 @@
 .header__slider {
 	&-item {
 		height: 100vh;
-		background-image: url(../img/header-bg.jpg);	
+		background-image: url(../img/new-bg.jpg);	
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 		position: relative;
+		background-color:rgba(0,0,0,.3);
+		opacity: .5;
 	}
 }
 
@@ -57,9 +59,9 @@
 
 .slider-dotshead {
 	position: absolute;
-	right: 50px;
+	right: 60px;
 	bottom: 36px;
-	max-width: 920px;
+	max-width: 1000px;
 	width: 100%;
 	.slick-current {
 		.dots-box {
@@ -71,10 +73,15 @@
 			transform: none !important;
 		}
 	}
+
+	.slider-dots__item {
+		display: inline-block;
+		padding-right: 15px;
+	}
 }
 
 .dots-box {
-	width: 200px;
+	// width: 200px;
 	display: flex;
 	justify-content: space-between;
 	height: 28px;
